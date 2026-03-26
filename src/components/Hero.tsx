@@ -93,32 +93,40 @@ export default function Hero() {
         </div>
       </nav>
 
-      {/* Language switcher (desktop) */}
-      <div className="hero-lang hero-nav-pill">
-        {LOCALES.map((l, i) => (
-          <span key={l.code} className="flex items-center">
-            {i > 0 && <span className="hero-nav-lang-sep">/</span>}
-            {l.code === locale ? (
-              <span className="hero-nav-lang-active">{l.label}</span>
-            ) : (
-              <a href={`/${l.code}`} className="hero-nav-lang-link">
-                {l.label}
-              </a>
-            )}
-          </span>
-        ))}
+      <div className="hero-trailing">
+        <a
+          href="https://pump.fun/coin/5iUnWem4inBa4EeU6b4DUbvjjw3U16p3SVovMvHApump"
+          className="hero-token hero-nav-pill"
+          target="_blank"
+          rel="noopener noreferrer"
+          title="$SWRD 5iUnWem4inBa4EeU6b4DUbvjjw3U16p3SVovMvHApump"
+        >
+          $SWRD 5iUnWem4inBa4EeU6b4DUbvjjw3U16p3SVovMvHApump
+        </a>
+        <div className="hero-lang hero-nav-pill">
+          {LOCALES.map((l, i) => (
+            <span key={l.code} className="flex items-center">
+              {i > 0 && <span className="hero-nav-lang-sep">/</span>}
+              {l.code === locale ? (
+                <span className="hero-nav-lang-active">{l.label}</span>
+              ) : (
+                <a href={`/${l.code}`} className="hero-nav-lang-link">
+                  {l.label}
+                </a>
+              )}
+            </span>
+          ))}
+        </div>
+        <button
+          className="hero-hamburger hero-nav-pill"
+          aria-label="Toggle menu"
+          onClick={() => setMenuOpen((v) => !v)}
+        >
+          <span className={`hero-nav-menu-line ${menuOpen ? "open" : ""}`} />
+          <span className={`hero-nav-menu-line ${menuOpen ? "open" : ""}`} />
+          <span className={`hero-nav-menu-line ${menuOpen ? "open" : ""}`} />
+        </button>
       </div>
-
-      {/* Hamburger (mobile) */}
-      <button
-        className="hero-hamburger hero-nav-pill"
-        aria-label="Toggle menu"
-        onClick={() => setMenuOpen((v) => !v)}
-      >
-        <span className={`hero-nav-menu-line ${menuOpen ? "open" : ""}`} />
-        <span className={`hero-nav-menu-line ${menuOpen ? "open" : ""}`} />
-        <span className={`hero-nav-menu-line ${menuOpen ? "open" : ""}`} />
-      </button>
 
       {/* Mobile menu */}
       {menuOpen && (
@@ -167,6 +175,15 @@ export default function Hero() {
             rel="noreferrer noopener"
           >
             {t("nav.community")}
+          </a>
+          <a
+            href="https://pump.fun/coin/5iUnWem4inBa4EeU6b4DUbvjjw3U16p3SVovMvHApump"
+            className="hero-mobile-link break-all text-xs font-mono"
+            target="_blank"
+            rel="noopener noreferrer"
+            onClick={() => setMenuOpen(false)}
+          >
+            $SWRD 5iUnWem4inBa4EeU6b4DUbvjjw3U16p3SVovMvHApump
           </a>
           <div className="hero-mobile-divider" />
           <div className="hero-mobile-lang">

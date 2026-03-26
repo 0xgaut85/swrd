@@ -291,19 +291,60 @@
   color: var(--color-fg-tertiary);
 }
 
-/* ── Hero language switcher ────────────────────── */
+/* ── Hero top-right cluster (token + lang / hamburger) ─ */
 
-.hero-lang {
+.hero-trailing {
+  position: absolute;
   top: max(1.25rem, env(safe-area-inset-top, 0px));
   right: max(1.25rem, env(safe-area-inset-right, 0px));
   z-index: 20;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0.5rem;
+  flex-wrap: nowrap;
+  max-width: calc(100dvw - 5.5rem);
+}
+
+.hero-token.hero-nav-pill {
+  font-family: var(--font-mono);
+  text-decoration: none;
+  text-transform: none;
+  letter-spacing: 0.02em;
+  font-size: 0.62rem;
+  font-weight: 500;
+  color: var(--color-fg-secondary);
+  padding-inline: 0.65rem;
+  max-width: min(52vw, 280px);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.hero-token.hero-nav-pill:hover {
+  color: var(--color-accent);
+  background: #4a90d914;
+}
+
+@media (min-width: 768px) {
+  .hero-token.hero-nav-pill {
+    max-width: min(34vw, 400px);
+  }
+}
+
+@media (min-width: 1200px) {
+  .hero-token.hero-nav-pill {
+    max-width: min(40vw, 560px);
+  }
+}
+
+.hero-lang.hero-nav-pill {
   font-family: var(--font-mono);
   font-size: 0.76rem;
   display: none;
   align-items: center;
   gap: 0.35rem;
   padding: 0.45rem 0.8rem;
-  position: absolute;
 }
 .hero-nav-lang-sep {
   color: var(--color-border-dashed);
@@ -325,9 +366,10 @@
 
 /* ── Hero hamburger ────────────────────────────── */
 
-.hero-hamburger {
-  top: max(1.25rem, env(safe-area-inset-top, 0px));
-  right: max(1.25rem, env(safe-area-inset-right, 0px));
+.hero-hamburger.hero-nav-pill {
+  position: relative;
+  top: auto;
+  right: auto;
   z-index: 20;
   cursor: pointer;
   border: none;
@@ -337,7 +379,7 @@
   align-items: center;
   gap: 3.5px;
   width: 2.35rem;
-  position: absolute;
+  flex-shrink: 0;
   overflow: visible;
 }
 .hero-nav-menu-line {
@@ -504,12 +546,15 @@
   .hero-nav-links {
     display: flex;
   }
-  .hero-lang {
-    display: flex;
+  .hero-trailing {
     top: 1.5rem;
     right: 2rem;
+    max-width: calc(100dvw - 8rem);
   }
-  .hero-hamburger {
+  .hero-lang.hero-nav-pill {
+    display: flex;
+  }
+  .hero-hamburger.hero-nav-pill {
     display: none;
   }
   .hero-content {
