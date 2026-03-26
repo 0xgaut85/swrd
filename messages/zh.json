@@ -1,0 +1,51 @@
+{
+  "nav": {
+    "projects": "项目",
+    "vision": "愿景",
+    "blog": "博客",
+    "twitter": "X",
+    "community": "社区"
+  },
+  "hero": {
+    "pronunciationLabel": "读作",
+    "pronunciation": "sword",
+    "tagline": "以AI锻造动漫世界",
+    "subtitle": "我们热爱动漫，尊重这门手艺。AI正在改变动漫的制作方式，我们希望每个人都能创造自己的世界。"
+  },
+  "latestProject": {
+    "label": "最新项目",
+    "title": "第一个项目筹备中。",
+    "description": "敬请期待。"
+  },
+  "vision": {
+    "label": "我们的愿景",
+    "statement": "AI正在改变动漫的制作方式。我们在这里。",
+    "body": "我们是一群看动漫长大、想做自己动漫的人。AI让这成为可能。我们研究工具，创作原创作品，分享一路上学到的东西。",
+    "pillar1Title": "研究",
+    "pillar1Desc": "研究AI动画、角色设计和叙事中什么方法有效。",
+    "pillar2Title": "创作",
+    "pillar2Desc": "用当下最好的工具制作原创动漫。",
+    "pillar3Title": "分享",
+    "pillar3Desc": "为想尝试的人提供教程、工作流程和工具。"
+  },
+  "blog": {
+    "label": "博客",
+    "comingSoon": "这里还什么都没有。我们会尽快开始写。"
+  },
+  "join": {
+    "label": "加入我们",
+    "headline": "进入锻造场",
+    "body": "来一起玩吧。分享你的作品，互相学习，一起做点酷的东西。",
+    "cta": "加入社区",
+    "secondary": "关注X"
+  },
+  "footer": {
+    "twitter": "推特",
+    "community": "社区",
+    "contact": "联系",
+    "copied": "已复制!",
+    "privacy": "隐私",
+    "terms": "条款",
+    "rights": "版权所有"
+  }
+}

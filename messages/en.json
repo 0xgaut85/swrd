@@ -1,0 +1,51 @@
+{
+  "nav": {
+    "projects": "PROJECTS",
+    "vision": "VISION",
+    "blog": "BLOG",
+    "twitter": "X",
+    "community": "COMMUNITY"
+  },
+  "hero": {
+    "pronunciationLabel": "pronounced",
+    "pronunciation": "/sword/",
+    "tagline": "Forging Anime Worlds Through AI",
+    "subtitle": "We love anime. We love the craft. AI is changing how it's made, and we want everyone to be able to create their own worlds."
+  },
+  "latestProject": {
+    "label": "LATEST PROJECT",
+    "title": "First project in the works.",
+    "description": "Stay tuned."
+  },
+  "vision": {
+    "label": "OUR VISION",
+    "statement": "AI is changing how anime gets made. We're here for it.",
+    "body": "We're a group of people who grew up on anime and want to make our own. AI makes that possible now. We research the tools, create original work, and share what we learn along the way.",
+    "pillar1Title": "Research",
+    "pillar1Desc": "Studying what works in AI animation, character design, and storytelling.",
+    "pillar2Title": "Create",
+    "pillar2Desc": "Making original anime with the best tools available today.",
+    "pillar3Title": "Share",
+    "pillar3Desc": "Tutorials, workflows, and tools for anyone who wants to try."
+  },
+  "blog": {
+    "label": "BLOG",
+    "comingSoon": "Nothing here yet. We'll start writing soon."
+  },
+  "join": {
+    "label": "JOIN US",
+    "headline": "Enter the Forge",
+    "body": "Come hang out. Share your work, learn from others, and build something cool with us.",
+    "cta": "Join Community",
+    "secondary": "Follow on X"
+  },
+  "footer": {
+    "twitter": "TWITTER",
+    "community": "COMMUNITY",
+    "contact": "CONTACT",
+    "copied": "COPIED!",
+    "privacy": "PRIVACY",
+    "terms": "TERMS",
+    "rights": "ALL RIGHTS RESERVED"
+  }
+}
