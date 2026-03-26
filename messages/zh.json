@@ -4,7 +4,8 @@
     "vision": "愿景",
     "blog": "博客",
     "twitter": "X",
-    "community": "社区"
+    "community": "社区",
+    "beta": "内测"
   },
   "hero": {
     "pronunciationLabel": "读作",
@@ -31,6 +32,24 @@
   "blog": {
     "label": "博客",
     "comingSoon": "这里还什么都没有。我们会尽快开始写。"
+  },
+  "beta": {
+    "label": "内测",
+    "title": "申请内测资格",
+    "description": "填写邮箱和 X 账号。确认提交后即完成登记，我们会在开放早期体验时联系你。",
+    "emailLabel": "邮箱",
+    "emailPlaceholder": "you@example.com",
+    "twitterLabel": "X 账号",
+    "twitterPlaceholder": "@用户名",
+    "confirm": "确认报名",
+    "submitting": "提交中…",
+    "successTitle": "报名成功",
+    "successBody": "感谢报名。我们已记录你的邮箱和 X 账号，稍后与你联系。",
+    "errors": {
+      "emailInvalid": "请输入有效的邮箱地址。",
+      "twitterInvalid": "请输入有效的 X 用户名（字母、数字、下划线，最多 15 个字符）。",
+      "generic": "出错了，请稍后再试。"
+    }
   },
   "join": {
     "label": "加入我们",

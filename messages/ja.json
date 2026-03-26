@@ -4,7 +4,8 @@
     "vision": "ビジョン",
     "blog": "ブログ",
     "twitter": "X",
-    "community": "コミュニティ"
+    "community": "コミュニティ",
+    "beta": "ベータ"
   },
   "hero": {
     "pronunciationLabel": "発音",
@@ -31,6 +32,24 @@
   "blog": {
     "label": "ブログ",
     "comingSoon": "まだ何もありません。近いうちに書き始めます。"
+  },
+  "beta": {
+    "label": "ベータ",
+    "title": "ベータに登録",
+    "description": "メールアドレスとXのユーザー名を入力してください。確認後、リストに登録済みです。早期アクセスの準備ができたらご連絡します。",
+    "emailLabel": "メール",
+    "emailPlaceholder": "you@example.com",
+    "twitterLabel": "Xのユーザー名",
+    "twitterPlaceholder": "@username",
+    "confirm": "登録を確定",
+    "submitting": "送信中…",
+    "successTitle": "登録完了",
+    "successBody": "ご登録ありがとうございます。メールとXの情報を受け取りました。追ってご連絡します。",
+    "errors": {
+      "emailInvalid": "有効なメールアドレスを入力してください。",
+      "twitterInvalid": "有効なXのユーザー名を入力してください（英数字とアンダースコア、最大15文字）。",
+      "generic": "エラーが発生しました。もう一度お試しください。"
+    }
   },
   "join": {
     "label": "参加する",

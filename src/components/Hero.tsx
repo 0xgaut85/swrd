@@ -66,6 +66,9 @@ export default function Hero() {
           <a href="#blog" className="hero-nav-link">
             {t("nav.blog")}
           </a>
+          <a href="#beta" className="hero-nav-link">
+            {t("nav.beta")}
+          </a>
           <span className="hero-nav-divider" />
           <a
             href="https://x.com/SWRD_ai"
@@ -140,6 +143,13 @@ export default function Hero() {
             onClick={() => setMenuOpen(false)}
           >
             {t("nav.blog")}
+          </a>
+          <a
+            href="#beta"
+            className="hero-mobile-link"
+            onClick={() => setMenuOpen(false)}
+          >
+            {t("nav.beta")}
           </a>
           <div className="hero-mobile-divider" />
           <a

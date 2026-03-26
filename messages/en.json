@@ -4,7 +4,8 @@
     "vision": "VISION",
     "blog": "BLOG",
     "twitter": "X",
-    "community": "COMMUNITY"
+    "community": "COMMUNITY",
+    "beta": "BETA"
   },
   "hero": {
     "pronunciationLabel": "pronounced",
@@ -31,6 +32,24 @@
   "blog": {
     "label": "BLOG",
     "comingSoon": "Nothing here yet. We'll start writing soon."
+  },
+  "beta": {
+    "label": "BETA",
+    "title": "Sign up for the beta",
+    "description": "Enter your email and X handle. After you confirm, you are on the list—we will follow up when early access is ready.",
+    "emailLabel": "Email",
+    "emailPlaceholder": "you@example.com",
+    "twitterLabel": "X handle",
+    "twitterPlaceholder": "@username",
+    "confirm": "Confirm sign-up",
+    "submitting": "Submitting…",
+    "successTitle": "You are registered",
+    "successBody": "Thanks for signing up. We have your email and X handle on file and will be in touch soon.",
+    "errors": {
+      "emailInvalid": "Enter a valid email address.",
+      "twitterInvalid": "Enter a valid X handle (letters, numbers, underscore; max 15 characters).",
+      "generic": "Something went wrong. Please try again."
+    }
   },
   "join": {
     "label": "JOIN US",

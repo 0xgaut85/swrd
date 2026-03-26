@@ -4,6 +4,8 @@ import ProjectsSection from "@/components/ProjectsSection";
 import VisionSection from "@/components/VisionSection";
 import BlogSection from "@/components/BlogSection";
 import JoinSection from "@/components/JoinSection";
+import BetaSignup from "@/components/BetaSignup";
+import RevealSection from "@/components/RevealSection";
 import Footer from "@/components/Footer";
 
 export default async function HomePage({
@@ -25,6 +27,10 @@ export default async function HomePage({
       <BlogSection />
       <hr className="section-divider" />
       <JoinSection />
+      <hr className="section-divider" />
+      <RevealSection>
+        <BetaSignup />
+      </RevealSection>
       <Footer />
     </main>
   );
