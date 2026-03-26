@@ -10,7 +10,7 @@ export default function Footer() {
   const [copied, setCopied] = useState(false);
 
   const handleCopy = async () => {
-    await navigator.clipboard.writeText("contact@swrd.ai");
+    await navigator.clipboard.writeText("contact@swrd.live");
     setCopied(true);
     setTimeout(() => setCopied(false), 2000);
   };
@@ -44,7 +44,7 @@ export default function Footer() {
               className="bracket-link cursor-pointer"
               type="button"
             >
-              {copied ? t("copied") : <>contact@swrd.ai</>}
+              {copied ? t("copied") : <>contact@swrd.live</>}
             </button>
           </div>
           <div className="flex items-center gap-x-5 gap-y-2 flex-wrap text-fg-tertiary">
